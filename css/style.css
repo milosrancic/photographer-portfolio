@@ -1,0 +1,166 @@
+body {
+	font-family: 'Roboto Slab', serif;
+	color: #44403D;
+	max-width: 1400px;
+
+
+	background: #CC95C0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* --- NAVBAR --- */
+
+.nav .nav-item > a {
+	margin-right: 30px;
+	color: #36454F;
+	letter-spacing: 2px;
+}
+.nav .nav-item .active {
+	background-color: #CB98BE;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 410px) {
+	.nav .nav-item > a {
+		letter-spacing: normal;
+	}
+}
+
+
+/* --- INDEX PAGE ---- */
+#index-pg img {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	border: 3px solid #CB98BE;
+}
+
+#index-pg a {
+	color: #EE5A24;
+	color: #36454F;
+}
+
+/* all pages links */
+.all-pg-links {
+	margin: 30px 0 30px 0;
+}
+.all-pg-links p {
+	margin: 0;
+	margin-bottom: 10px;
+}
+.all-pg-links a {
+	letter-spacing: 1px;
+	font-size: 25px;
+	padding: 5px 15px;
+	background-color: #CB98BE;
+	border-radius: 2px;
+}
+.all-pg-links a:hover {
+	background-color: #82A5CE;
+	text-decoration: none;
+	cursor: pointer;
+}
+.all-pg-links a:active {
+	background-color: black;
+}
+
+@media only screen and (max-width: 386px) {
+	.all-pg-links {
+		padding: 3px 9px;
+	}
+}
+
+
+/*social media links*/
+.social-links {
+	margin-top: 40px;
+}
+.social-links a {
+	padding: 0 13px 0 13px;
+}
+.social-links i {
+	color: #82A5CE;
+}
+.social-links i:hover {
+	color: black;
+	color: #CB98BE;
+}
+
+#index-pg #footer {
+	margin-top: 65px;
+}
+
+/* home icon */
+.fa-home {
+	padding: 12px 0 0 7px;
+	color: #36454F;
+}
+
+
+/* h1 tags on all three pages */
+#nature-pg h1, 
+#portraits-pg h1, 
+#retro-pg h1 {
+	color: #36454F;
+	letter-spacing: 4px;
+	margin: 40px 0 30px 0;
+	text-decoration: underline;
+	text-decoration-color: #CB98BE; 
+}
+
+/* back to top arrow */
+.fa-arrow-up {
+	color: #36454F;
+	margin: 20px 20px;
+	border: 1px solid #82A5CE;
+	padding: 5px;
+	border-radius: 5px;
+}
+.fa-arrow-up:hover {
+	background-color: #82A5CE;
+}
+
+/* margins between photos on all three pages */
+#nature-pg .photos img, 
+#portraits-pg .photos img, 
+#retro-pg .photos img  {
+	margin: 15px 0 15px 0;
+	border-radius: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+	#nature-pg .photos img, 
+	#portraits-pg .photos img, 
+	#retro-pg .photos img  {
+		display:block;
+		margin:15px auto;
+	}
+}
+
+
+
+/* --- FOOTER --- */
+
+#footer {
+	line-height: normal;
+	padding-bottom: 5px;
+}
+#footer p {
+	font-size: 11px;
+	margin: 7px;
+}
+.heart {
+	color: #F20000;
+	font-size: 10px;
+}
+
+#footer a {
+	color: black;
+}
+
+#footer a:hover, a:visited {
+	color: #82A5CE;
+	text-decoration: none;
+}
+
